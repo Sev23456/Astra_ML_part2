@@ -1,0 +1,62 @@
+{
+  "xgboost_base": {
+    "objective": "binary:logistic",
+    "eval_metric": "auc",
+    "tree_method": "hist",
+    "device": "cpu",
+    "eta": 0.08,
+    "subsample": 0.85,
+    "colsample_bytree": 0.9,
+    "lambda": 5.0,
+    "alpha": 0.0,
+    "gamma": 0.0,
+    "max_bin": 128,
+    "seed": 20261004,
+    "nthread": 8,
+    "verbosity": 0
+  },
+  "lightgbm_base": {
+    "objective": "binary",
+    "metric": "auc",
+    "learning_rate": 0.08,
+    "bagging_fraction": 0.85,
+    "bagging_freq": 1,
+    "feature_fraction": 0.9,
+    "lambda_l2": 5.0,
+    "lambda_l1": 0.0,
+    "max_depth": 8,
+    "max_bin": 128,
+    "feature_pre_filter": false,
+    "deterministic": true,
+    "force_col_wise": true,
+    "seed": 20261004,
+    "bagging_seed": 20261004,
+    "feature_fraction_seed": 20261004,
+    "data_random_seed": 20261004,
+    "num_threads": 8,
+    "verbosity": -1
+  },
+  "max_rounds": 400,
+  "patience": 30,
+  "xgboost_grid": {
+    "max_depth": [
+      3,
+      5
+    ],
+    "min_child_weight": [
+      5,
+      20
+    ]
+  },
+  "lightgbm_grid": {
+    "num_leaves": [
+      15,
+      31
+    ],
+    "min_data_in_leaf": [
+      100,
+      300
+    ]
+  },
+  "train_subset_used": false
+}

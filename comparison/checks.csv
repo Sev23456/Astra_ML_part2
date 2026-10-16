@@ -1,0 +1,199 @@
+﻿check,passed,max_absolute_difference
+Те же 21 признак,True,0.0
+Тот же seed,True,0.0
+Та же версия numpy,True,0.0
+Та же версия pandas,True,0.0
+Та же версия pyarrow,True,0.0
+Та же версия xgboost,True,0.0
+Та же версия lightgbm,True,0.0
+Та же версия scikit-learn,True,0.0
+Тот же протокол поиска,True,0.0
+Победитель не изменился,True,0.0
+Test не участвует в выборе,True,0.0
+XGBoost: те же параметры и число деревьев,True,0.0
+XGBoost: порог,True,0.0
+XGBoost: validation AUC,True,0.0
+LightGBM: те же параметры и число деревьев,True,0.0
+LightGBM: порог,True,0.0
+LightGBM: validation AUC,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\parquet\Zgamma_EWK.parquet,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\root\Zgamma_EWK.root,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\parquet\Zgamma_QCD.parquet,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\root\Zgamma_QCD.root,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\parquet\Wgamma_QCD.parquet,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\root\Wgamma_QCD.root,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\parquet\Wgamma_EWK.parquet,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\root\Wgamma_EWK.root,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\parquet\top.parquet,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\root\top.root,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\parquet\ttgamma.parquet,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\root\ttgamma.root,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\parquet\gammajet.parquet,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\root\gammajet.root,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\parquet\Zj.parquet,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\root\Zj.root,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\parquet\Zllgamma.parquet,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\root\Zllgamma.root,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\parquet\Wenu.parquet,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\root\Wenu.root,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\parquet\Wtaunu.parquet,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\root\Wtaunu.root,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\split_manifest.csv,True,0.0
+Источник неизменен: Z(nunu)gamma+jj\instructions.pdf,True,0.0
+Старый ROOT/Parquet-аудит всех бинов пройден,True,0.0
+counts_by_process_split: ключи,True,0.0
+counts_by_process_split: train,True,0.0
+counts_by_process_split: validation,True,0.0
+counts_by_process_split: test,True,0.0
+counts_by_process_split: total,True,0.0
+counts_by_process_split: f_train,True,0.0
+counts_by_process_split: f_validation,True,0.0
+counts_by_process_split: f_test,True,0.0
+feature_quality: ключи,True,0.0
+feature_quality: missing_all,True,0.0
+feature_quality: infinite_all,True,0.0
+feature_quality: unique_train,True,0.0
+feature_quality: min_train,True,0.0
+feature_quality: max_train,True,0.0
+weights_by_class_split: ключи,True,0.0
+weights_by_class_split: n,True,0.0
+weights_by_class_split: n_negative,True,0.0
+weights_by_class_split: sum_physics,True,0.0
+weights_by_class_split: sum_abs_physics,True,0.0
+weights_by_class_split: sum_w2,True,0.0
+weights_by_class_split: signed_to_abs,True,0.0
+weights_by_class_split: sum_training_weight,True,0.0
+hyperparameter_search: ключи,True,0.0
+hyperparameter_search: validation_auc,True,0.0
+hyperparameter_search: rounds,True,0.0
+hyperparameter_search: round_cap_reached,True,0.0
+hyperparameter_search: params,True,0.0
+final_metrics: ключи,True,0.0
+final_metrics: weighted_auc,True,0.0
+final_metrics: n_events,True,0.0
+physical_yields_at_frozen_threshold: ключи,True,0.0
+physical_yields_at_frozen_threshold: threshold,True,0.0
+physical_yields_at_frozen_threshold: S,True,0.0
+physical_yields_at_frozen_threshold: n_signal,True,0.0
+physical_yields_at_frozen_threshold: sum_w2_signal,True,0.0
+physical_yields_at_frozen_threshold: abs_sum_signal,True,0.0
+physical_yields_at_frozen_threshold: B,True,0.0
+physical_yields_at_frozen_threshold: n_background,True,0.0
+physical_yields_at_frozen_threshold: sum_w2_background,True,0.0
+physical_yields_at_frozen_threshold: abs_sum_background,True,0.0
+physical_yields_at_frozen_threshold: ZA,True,0.0
+physical_yields_at_frozen_threshold: neff_signal,True,0.0
+physical_yields_at_frozen_threshold: signed_to_abs_signal,True,0.0
+physical_yields_at_frozen_threshold: mc_relative_error_signal,True,0.0
+physical_yields_at_frozen_threshold: neff_background,True,0.0
+physical_yields_at_frozen_threshold: signed_to_abs_background,True,0.0
+physical_yields_at_frozen_threshold: mc_relative_error_background,True,0.0
+physical_yields_by_process: ключи,True,0.0
+physical_yields_by_process: n_selected,True,0.0
+physical_yields_by_process: physics_yield,True,0.0
+physical_yields_by_process: sum_w2_scaled,True,0.0
+physical_yields_by_process: mc_error,True,0.0
+score_histogram_bins: ключи,True,0.0
+score_histogram_bins: left,True,0.0
+score_histogram_bins: right,True,0.0
+score_histogram_bins: n,True,0.0
+score_histogram_bins: sum_w,True,0.0
+score_histogram_bins: sum_w2,True,0.0
+score_histogram_bins: integral,True,0.0
+score_histogram_bins: normalized,True,0.0
+score_histogram_bins: error,True,0.0
+test_train_ratio_bins: ключи,True,0.0
+test_train_ratio_bins: left,True,0.0
+test_train_ratio_bins: right,True,0.0
+test_train_ratio_bins: ratio,True,0.0
+test_train_ratio_bins: full_error,True,0.0
+test_train_ratio_bins: zero_train_denominator,True,0.0
+threshold_leave_one_event_out: ключи,True,0.0
+threshold_leave_one_event_out: class,True,0.0
+threshold_leave_one_event_out: scaled_signed_weight,True,0.0
+threshold_leave_one_event_out: ZA_original,True,0.0
+threshold_leave_one_event_out: ZA_without_event,True,0.0
+threshold_leave_one_event_out: delta_ZA,True,0.0
+input_histogram_bins: ключи,True,0.0
+input_histogram_bins: left,True,0.0
+input_histogram_bins: right,True,0.0
+input_histogram_bins: n,True,0.0
+input_histogram_bins: sum_w,True,0.0
+input_histogram_bins: sum_w2,True,0.0
+input_histogram_bins: integral,True,0.0
+input_histogram_bins: normalized,True,0.0
+input_histogram_bins: error,True,0.0
+input_histogram_tails_missing: ключи,True,0.0
+input_histogram_tails_missing: nonfinite_n,True,0.0
+input_histogram_tails_missing: nonfinite_sum_w,True,0.0
+input_histogram_tails_missing: nonfinite_sum_w2,True,0.0
+input_histogram_tails_missing: underflow_n,True,0.0
+input_histogram_tails_missing: underflow_sum_w,True,0.0
+input_histogram_tails_missing: underflow_sum_w2,True,0.0
+input_histogram_tails_missing: overflow_n,True,0.0
+input_histogram_tails_missing: overflow_sum_w,True,0.0
+input_histogram_tails_missing: overflow_sum_w2,True,0.0
+roc_curves: ключи,True,0.0
+roc_curves: FPR,True,0.0
+roc_curves: TPR,True,0.0
+xgboost_validation_threshold_scan: ключи,True,0.0
+xgboost_validation_threshold_scan: S,True,0.0
+xgboost_validation_threshold_scan: B,True,0.0
+xgboost_validation_threshold_scan: ZA,True,0.0
+xgboost_validation_threshold_scan: n_signal,True,0.0
+xgboost_validation_threshold_scan: n_background,True,0.0
+xgboost_validation_threshold_scan: sum_w2_signal,True,0.0
+xgboost_validation_threshold_scan: sum_w2_background,True,0.0
+xgboost_validation_threshold_scan: abs_sum_signal,True,0.0
+xgboost_validation_threshold_scan: abs_sum_background,True,0.0
+lightgbm_validation_threshold_scan: ключи,True,0.0
+lightgbm_validation_threshold_scan: S,True,0.0
+lightgbm_validation_threshold_scan: B,True,0.0
+lightgbm_validation_threshold_scan: ZA,True,0.0
+lightgbm_validation_threshold_scan: n_signal,True,0.0
+lightgbm_validation_threshold_scan: n_background,True,0.0
+lightgbm_validation_threshold_scan: sum_w2_signal,True,0.0
+lightgbm_validation_threshold_scan: sum_w2_background,True,0.0
+lightgbm_validation_threshold_scan: abs_sum_signal,True,0.0
+lightgbm_validation_threshold_scan: abs_sum_background,True,0.0
+validation: UID уникальны,True,0.0
+validation: порядок событий совпадает,True,0.0
+validation: полный набор UID совпадает,True,0.0
+validation: process_group,True,0.0
+validation: split,True,0.0
+validation: label_binary,True,0.0
+validation: все события weight_physics,True,0.0
+validation: точное совпадение weight_physics,True,0.0
+validation: все события weight_abs_physics,True,0.0
+validation: точное совпадение weight_abs_physics,True,0.0
+validation: все события score_xgboost,True,0.0
+validation: точное совпадение score_xgboost,True,0.0
+validation: все события score_lightgbm,True,0.0
+validation: точное совпадение score_lightgbm,True,0.0
+XGBoost/validation: независимый AUC,True,0.0
+XGBoost/validation: независимые S/B/ZA,True,0.0
+XGBoost: порог максимума validation ZA,True,0.0
+LightGBM/validation: независимый AUC,True,0.0
+LightGBM/validation: независимые S/B/ZA,True,0.0
+LightGBM: порог максимума validation ZA,True,0.0
+test: UID уникальны,True,0.0
+test: порядок событий совпадает,True,0.0
+test: полный набор UID совпадает,True,0.0
+test: process_group,True,0.0
+test: split,True,0.0
+test: label_binary,True,0.0
+test: все события weight_physics,True,0.0
+test: точное совпадение weight_physics,True,0.0
+test: все события weight_abs_physics,True,0.0
+test: точное совпадение weight_abs_physics,True,0.0
+test: все события score_xgboost,True,0.0
+test: точное совпадение score_xgboost,True,0.0
+test: все события score_lightgbm,True,0.0
+test: точное совпадение score_lightgbm,True,0.0
+XGBoost/test: независимый AUC,True,0.0
+XGBoost/test: независимые S/B/ZA,True,7.105427357601002e-15
+LightGBM/test: независимый AUC,True,0.0
+LightGBM/test: независимые S/B/ZA,True,7.105427357601002e-15
+Validation/test не пересекаются,True,0.0
+Сохранённая XGBoost: воспроизводимость score,True,0.0
+Сохранённая LightGBM: воспроизводимость score,True,0.0

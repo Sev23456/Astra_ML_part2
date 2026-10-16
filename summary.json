@@ -1,0 +1,28 @@
+{
+  "selected_model": "LightGBM",
+  "test_auc": 0.9361321548474344,
+  "threshold": 0.9811620743844368,
+  "test_used_for_selection": false,
+  "test_yields": {
+    "threshold": 0.9811620743844368,
+    "S": 43.31129390177183,
+    "n_signal": 12446,
+    "sum_w2_signal": 0.17687394261616923,
+    "abs_sum_signal": 43.49784118771386,
+    "neff_signal": 10605.678551059631,
+    "signed_to_abs_signal": 0.9957113438081447,
+    "mc_relative_error_signal": 0.009710258019180172,
+    "B": 55.97930418869444,
+    "n_background": 2966,
+    "sum_w2_background": 75.32416505975839,
+    "abs_sum_background": 77.10122089122068,
+    "neff_background": 41.60261842881734,
+    "signed_to_abs_background": 0.7260495170066582,
+    "mc_relative_error_background": 0.1550385390178745,
+    "ZA": 5.213262511864403,
+    "model": "LightGBM",
+    "split": "test"
+  },
+  "n_events": 4992291,
+  "runtime_seconds": 370.996847100032
+}

@@ -1,0 +1,38 @@
+{
+  "python": "3.13.5",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "pyarrow": "25.0.1",
+    "xgboost": "3.4.1",
+    "lightgbm": "4.7.0",
+    "scikit-learn": "1.9.1"
+  },
+  "seed": 20261004,
+  "threads_per_model": 8,
+  "feature_names": [
+    "n_jet",
+    "n_bjet",
+    "n_e_medium",
+    "n_mu",
+    "ph_pt",
+    "ph_eta",
+    "ph_phi",
+    "jet_lead_pt",
+    "jet_lead_eta",
+    "jet_lead_phi",
+    "jet_lead_E",
+    "jet_sublead_pt",
+    "jet_sublead_eta",
+    "jet_sublead_phi",
+    "jet_sublead_E",
+    "metTST_pt",
+    "metTST_phi",
+    "metTSTsignif",
+    "soft_term_pt",
+    "soft_term_phi",
+    "jet_sum_pt"
+  ],
+  "device": "CPU",
+  "holdout_fraction_for_yields": 0.15
+}

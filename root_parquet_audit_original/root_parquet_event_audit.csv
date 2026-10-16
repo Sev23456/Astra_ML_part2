@@ -1,0 +1,12 @@
+﻿process,n_events,max_abs_numeric_difference,uid_match,provenance_match,split_match
+Zgamma_EWK,408998,0.0,True,True,True
+Zgamma_QCD,760291,0.0,True,True,True
+Wgamma_QCD,3066465,0.0,True,True,True
+Wgamma_EWK,212161,0.0,True,True,True
+top,30886,0.0,True,True,True
+ttgamma,76251,0.0,True,True,True
+gammajet,347843,0.0,True,True,True
+Zj,2426,0.0,True,True,True
+Zllgamma,10772,0.0,True,True,True
+Wenu,43785,0.0,True,True,True
+Wtaunu,32413,0.0,True,True,True
