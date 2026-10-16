@@ -2,7 +2,7 @@ r"""Zgamma_EWK против десяти размеченных MC-фонов.
 
 Запуск: .venv\Scripts\python.exe -X utf8 zgamma_analysis.py
 Новые результаты: results_simple/. Старые results/ не изменяются.
-Графики находятся в zgamma_plots.py, сверка — в compare_results.py.
+Графики находятся в zgamma_plots.py
 Реальные неразмеченные данные этот сценарий не открывает.
 """
 
